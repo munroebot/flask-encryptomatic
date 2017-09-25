@@ -1,7 +1,6 @@
 import CryptoUtils
-import json
 
-PLAINTEXT_FILE = 'config.py'
+PLAINTEXT_FILE = 'config.py.json'
 KEY=""
 
 def encrypt_file():

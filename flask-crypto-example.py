@@ -5,8 +5,9 @@ from functools import wraps
 
 app = Flask(__name__)
 
+# Other app.config variables will be set once
+# the application has been unlocked
 app.config['LOCKED'] = True
-app.config['DB_PASSWORD'] = None
 
 def _decrypt_file(encryption_key):
 
